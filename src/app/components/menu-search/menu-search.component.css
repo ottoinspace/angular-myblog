@@ -1,0 +1,34 @@
+.container_menu-search {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+}
+
+.container_menu-search > h1{
+  color: #e4187e;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container_menu-search > input {
+  border-radius: 50rem;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-style: none;
+  color: #dcdae2;
+  background-color: #fffdff;
+  padding-left: 20px;
+  width: 300px;
+}
+
+.container_menu-search > input:focus {
+  color: #888888;
+  outline-color: #dcdae2;
+}
+
+.menu-img > img {
+  width: auto;
+  height: 50px;
+}
