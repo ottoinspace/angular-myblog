@@ -7,13 +7,15 @@ flex-direction: row;
 
 .container__cards {
   margin-right: 20px;
+  margin-top: 30px;
 }
 
 .long__title {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
 .long__title > h2 {

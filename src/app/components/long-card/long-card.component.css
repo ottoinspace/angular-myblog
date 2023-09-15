@@ -1,0 +1,48 @@
+.container__long-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #2EC2DE;
+  margin-bottom: 15px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform 0.2s ease;
+  box-shadow: 3px 3px 5px rgba(68, 42, 50, 0.55);
+}
+.container__long-card:hover {
+  transform: scale(1.05);
+}
+
+.container__long-card > a {
+  text-decoration: none;
+}
+
+.long-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.long-card__description {
+  font-size: 80%;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.long-card__description > p{
+  text-align: end;
+  color: rgba(255, 255, 255, 0.551);
+}
+
+.long-card__title > h1 {
+  color: white;
+}
+
+.long-card__photo {
+  width: 200px;
+}
+
+.long-card__photo > img {
+  width: 100%;
+}
