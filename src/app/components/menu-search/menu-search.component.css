@@ -1,9 +1,10 @@
 .container_menu-search {
   display: flex;
   flex-direction: row;
-  width: 850px;
+  justify-content: space-between;
+  width: auto;
   height: auto;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 0px 17px 11px -15px rgba(144, 90, 107, 0.317);
 }
 
@@ -15,8 +16,6 @@
 
 .container_menu-search > input {
   border-radius: 50rem;
-  margin-left: 200px;
-  margin-right: 200px;
   border-style: none;
   color: #dcdae2;
   background-color: #fffdff;
@@ -33,3 +32,21 @@
   width: auto;
   height: 50px;
 }
+
+.menu-bar__links {
+  width: 350px;
+}
+
+.menu-bar__links > ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.menu-bar__links > ul > li > a > img {
+  width: 40px;
+  height: auto;
+}
+

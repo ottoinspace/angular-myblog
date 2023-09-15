@@ -1,0 +1,65 @@
+.container__profile-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  clip-path: circle(50%);
+  margin-bottom: 20px;
+}
+
+.profile__photo > img {
+  width: 150px;
+}
+
+.card-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.card-profile > h2 {
+  font-size: medium;
+  color: #d47db2;
+}
+
+.profile-name {
+  font-weight: 800;
+}
+
+.profile-email {
+  font-weight: 400;
+}
+
+.menu-left > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.menu-left > ul > li {
+  margin-bottom: 20px;
+  padding: 10px;
+  transition: transform 1s ease;
+}
+
+.menu-left > ul > li:hover {
+  transform: rotateX('angle');
+  color: white;
+  background-color: #EC008C;
+  border-radius: 2rem;
+}

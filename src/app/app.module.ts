@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardProfileComponent } from './components/card-profile/card-profile.component';
 import { MenuSearchComponent } from './components/menu-search/menu-search.component';
 import { ProfileSectionComponent } from './components/profile-section/profile-section.component';
@@ -16,7 +15,6 @@ import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MenuBarComponent,
     CardProfileComponent,
     MenuSearchComponent,
     ProfileSectionComponent,
