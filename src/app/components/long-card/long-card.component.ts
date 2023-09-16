@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-long-card',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./long-card.component.css']
 })
 export class LongCardComponent implements OnInit {
+  @Input()
+  photoCover:string = "";
+
+  @Input()
+  cardTitle:string = "";
+
+  @Input()
+  cardDescription:string = "";
 
   constructor() { }
 

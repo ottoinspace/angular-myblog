@@ -1,7 +1,8 @@
 <div class="container__home">
-  <app-profile-section>
-
-  </app-profile-section>
+  <div class="container__profile">
+    <app-profile-section>
+    </app-profile-section>
+  </div>
   <div class="container__content">
     <app-menu-search></app-menu-search>
     <div class="articles">
@@ -19,7 +20,10 @@
           <h2>Projects:</h2>
         </div>
         <div class="scroll-card">
-          <app-long-card></app-long-card>
+          <app-long-card
+          photoCover="../../assets/code-fox.svg"
+          cardTitle="APIRest"
+          cardDescription="Introducing NodeAPI: The Ultimate Student Management Tool. With this powerful API, you can effortlessly create and delete student profiles, while adding vibrant photos to bring their stories to life. Streamline your student database with ease and efficiency"></app-long-card>
           <app-long-card></app-long-card>
           <app-long-card></app-long-card>
         </div>

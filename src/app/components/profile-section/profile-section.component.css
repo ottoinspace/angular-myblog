@@ -54,11 +54,10 @@
 .menu-left > ul > li {
   margin-bottom: 20px;
   padding: 10px;
-  transition: transform 1s ease;
+  transition: all .3s ease-in;
 }
 
 .menu-left > ul > li:hover {
-  transform: rotateX('angle');
   color: white;
   background-color: #EC008C;
   border-radius: 2rem;

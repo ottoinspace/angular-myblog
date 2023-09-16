@@ -5,27 +5,12 @@
   width: auto;
   height: auto;
   padding: 10px;
-  box-shadow: 0px 17px 11px -15px rgba(144, 90, 107, 0.317);
 }
 
 .container_menu-search > h1{
   color: #e4187e;
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.container_menu-search > input {
-  border-radius: 50rem;
-  border-style: none;
-  color: #dcdae2;
-  background-color: #fffdff;
-  padding-left: 20px;
-  width: 300px;
-}
-
-.container_menu-search > input:focus {
-  color: #888888;
-  outline-color: #dcdae2;
 }
 
 .menu-img > img {
@@ -48,5 +33,9 @@
 .menu-bar__links > ul > li > a > img {
   width: 40px;
   height: auto;
+  transition: transform 0.2s ease;
 }
 
+.menu-bar__links > ul > li :hover {
+  transform: scale(1.2);
+}
